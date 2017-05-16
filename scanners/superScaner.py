@@ -5,7 +5,7 @@ import struct
 import logging
 from IPy import IP
 
-logging.basicConfig(level=logging.INFO, format="%(message)s", filename='scan.log', )
+logging.basicConfig(level=logging.INFO, format="%(message)s", filename='./scan.log',filemod='w' )
 log = logging.getLogger(__file__)
 
 class SMB_HEADER(Structure):
